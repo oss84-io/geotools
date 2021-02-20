@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.geotools.schemas</groupId>
+    <groupId>io.oss84.geotools.schemas</groupId>
     <artifactId>om-1.0</artifactId>
     <version>1.0.0-4</version>
     <name>Observations and Measurements 1.0 application schema</name>
@@ -25,17 +25,17 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>gml-3.1</artifactId>
             <version>3.1.1-4</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>sensorML-1.0</artifactId>
             <version>1.0.1-4</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>sweCommon-1.0</artifactId>
             <version>1.0.1-4</version>
         </dependency>

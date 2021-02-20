@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.geotools</groupId>
+        <groupId>io.oss84.geotools</groupId>
         <artifactId>app-schema</artifactId>
         <version>24-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>gt-app-schema-resolver</artifactId>
     <name>Application Schema Resolver</name>
 
@@ -54,12 +54,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-xml</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools.xsd</groupId>
+            <groupId>io.oss84.geotools.xsd</groupId>
             <artifactId>gt-xsd-core</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -69,31 +69,31 @@
             <version>1.2</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>geosciml-2.0</artifactId>
             <version>2.0.2-4</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>earthresourceml-1.1</artifactId>
             <version>1.1.0-3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>wfs-1.1</artifactId>
             <version>1.1.2-2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>gml-3.2</artifactId>
             <version>3.2.1-1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>wfs-2.0</artifactId>
             <version>2.0.0-2</version>
             <scope>test</scope>

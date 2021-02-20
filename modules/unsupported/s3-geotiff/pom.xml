@@ -20,7 +20,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <artifactId>unsupported</artifactId>
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <version>24-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
@@ -53,19 +53,19 @@
       <version>1.11.36</version>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-referencing</artifactId>
       <version>${project.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-epsg-hsql</artifactId>
       <version>${project.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-geotiff</artifactId>
       <version>${project.version}</version>
       <scope>provided</scope>

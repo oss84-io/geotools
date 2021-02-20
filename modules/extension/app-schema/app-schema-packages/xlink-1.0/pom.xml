@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.geotools.schemas</groupId>
+    <groupId>io.oss84.geotools.schemas</groupId>
     <artifactId>xlink-1.0</artifactId>
     <version>1.0.0-3</version>
     <name>XLink 1.0 schema</name>
