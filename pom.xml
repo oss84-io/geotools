@@ -250,6 +250,9 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
+	    <configuration>
+              <excludePackageNames combine.self="override"></excludePackageNames>
+            </configuration>
             <executions>
               <execution>
                 <id>attach-javadocs</id>
