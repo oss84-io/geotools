@@ -12,7 +12,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>library</artifactId>
-        <groupId>org.geotools</groupId>
+        <groupId>io.oss84.geotools</groupId>
         <version>25-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -49,7 +49,7 @@
   <!-- =========================================================== -->
     <dependencies>
       <dependency>
-        <groupId>org.geotools</groupId>
+        <groupId>io.oss84.geotools</groupId>
         <artifactId>gt-metadata</artifactId>
         <version>${project.version}</version>
       </dependency>

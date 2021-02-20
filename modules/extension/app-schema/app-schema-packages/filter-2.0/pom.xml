@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.geotools.schemas</groupId>
+    <groupId>io.oss84.geotools.schemas</groupId>
     <artifactId>filter-2.0</artifactId>
     <version>2.0.0-2</version>
     <name>OGC Filter 2.0 schema</name>
@@ -25,12 +25,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>xml-1.0</artifactId>
             <version>1.0.0-3</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>ows-1.1</artifactId>
             <version>1.1.0-1</version>
         </dependency>

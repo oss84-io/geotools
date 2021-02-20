@@ -14,7 +14,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.geotools</groupId>
+        <groupId>io.oss84.geotools</groupId>
         <artifactId>extension</artifactId>
         <version>25-SNAPSHOT</version>
     </parent>
@@ -23,7 +23,7 @@
     <!-- =========================================================== -->
     <!--     Module Description                                      -->
     <!-- =========================================================== -->
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>gt-wms</artifactId>
     <packaging>jar</packaging>
     <name>Web Map Server client</name>
@@ -76,35 +76,35 @@
     <!-- =========================================================== -->
     <dependencies>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-main</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-coverage</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-referencing</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-xml</artifactId>
             <version>${project.version}</version>
             <exclusions>
                 <exclusion>
-                    <groupId>org.geotools</groupId>
+                    <groupId>io.oss84.geotools</groupId>
                     <artifactId>gt-wfs</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.geotools.xsd</groupId>
+                    <groupId>io.oss84.geotools.xsd</groupId>
                     <artifactId>gt-xsd-wfs</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.geotools.ogc</groupId>
+                    <groupId>io.oss84.geotools.ogc</groupId>
                     <artifactId>net.opengis.wfs</artifactId>
                 </exclusion>
             </exclusions>
@@ -118,43 +118,43 @@
             <artifactId>commons-io</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-render</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-        	<groupId>org.geotools</groupId>
+        	<groupId>io.oss84.geotools</groupId>
         	<artifactId>gt-http</artifactId>
         	<version>${project.version}</version>
         	<classifier>tests</classifier>
         	<scope>test</scope>
         </dependency>
         <dependency>
-        	<groupId>org.geotools</groupId>
+        	<groupId>io.oss84.geotools</groupId>
         	<artifactId>gt-http-commons</artifactId>
         	<version>${project.version}</version>
         	<scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-epsg-hsql</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-epsg-extension</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-sample-data</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-brewer</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>

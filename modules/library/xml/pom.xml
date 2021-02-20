@@ -14,7 +14,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>library</artifactId>
     <version>25-SNAPSHOT</version>
   </parent>
@@ -23,7 +23,7 @@
   <!-- =========================================================== -->
   <!--     Module Description                                      -->
   <!-- =========================================================== -->
-  <groupId>org.geotools</groupId>
+  <groupId>io.oss84.geotools</groupId>
   <artifactId>gt-xml</artifactId>
   <packaging>jar</packaging>
   <name>XML Parsing Support</name>
@@ -72,7 +72,7 @@
   <dependencies>
 	
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-main</artifactId>
       <version>${project.version}</version>
     </dependency>
@@ -88,7 +88,7 @@
 		<version>1.2</version>
 	</dependency>
 	<dependency>
-		<groupId>org.geotools.schemas</groupId>
+		<groupId>io.oss84.geotools.schemas</groupId>
 		<artifactId>geosciml-2.0</artifactId>
 		<version>2.0.2-4</version>
 		<scope>test</scope>
@@ -96,13 +96,13 @@
     
     <!--  test dependencies -->
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-sample-data</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-epsg-hsql</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>
@@ -124,7 +124,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-main</artifactId>
       <version>${project.version}</version>
       <classifier>tests</classifier>

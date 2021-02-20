@@ -4,11 +4,11 @@
         xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.geotools</groupId>
+        <groupId>io.oss84.geotools</groupId>
         <artifactId>unsupported</artifactId>
         <version>25-SNAPSHOT</version>
     </parent>
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>gt-arcgisrest</artifactId>
     <name>ArcGIS ReST API Datastore</name>
     <packaging>jar</packaging>
@@ -53,12 +53,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-geojson</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-referencing</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -81,7 +81,7 @@
             <version>2.3.1</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-epsg-hsql</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
@@ -109,7 +109,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-cql</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>

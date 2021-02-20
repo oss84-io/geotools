@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.geotools.schemas</groupId>
+    <groupId>io.oss84.geotools.schemas</groupId>
     <artifactId>geosciml-3.2-seegrid</artifactId>
     <version>3.2.0-1</version>
     <name>Geoscience Markup Language (GeoSciML) 3.0 application schema</name>
@@ -24,17 +24,17 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>gml-3.2</artifactId>
             <version>3.2.1-1</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>sweCommon-2.0</artifactId>
             <version>2.0-1</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>samplingSpatial-2.0</artifactId>
             <version>2.0-1</version>
         </dependency>

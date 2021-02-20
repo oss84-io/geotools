@@ -11,14 +11,14 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                                 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.geotools.xsd</groupId>
+    <groupId>io.oss84.geotools.xsd</groupId>
     <artifactId>xsd</artifactId>
     <version>25-SNAPSHOT</version>
   </parent>
   <!-- =========================================================== -->
   <!--     Module Description                                      -->
   <!-- =========================================================== -->
-  <groupId>org.geotools.xsd</groupId>
+  <groupId>io.oss84.geotools.xsd</groupId>
   <artifactId>gt-xsd-core</artifactId>
   <packaging>jar</packaging>
   <name>XML Parsing</name>
@@ -64,12 +64,12 @@
   <!-- =========================================================== -->
   <dependencies>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-main</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-xml</artifactId>
       <version>${project.version}</version>
     </dependency>
