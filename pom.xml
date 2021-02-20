@@ -496,6 +496,7 @@
   <packaging>pom</packaging>
   <version>22-SNAPSHOT</version>
   <name>GeoTools</name>
+  <url>https://github.com/geotools/geotools</url>
 
   <scm>
     <connection>scm:git:git://github.com/geotools/geotools.git</connection>
