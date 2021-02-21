@@ -14,7 +14,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.geotools</groupId>
+        <groupId>io.oss84.geotools</groupId>
         <artifactId>unsupported</artifactId>
         <version>23-SNAPSHOT</version>
     </parent>
@@ -22,7 +22,7 @@
   <!-- =========================================================== -->
   <!--     Module Description                                      -->
   <!-- =========================================================== -->
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>gt-geojson</artifactId>
     <packaging>jar</packaging>
     <name>GeoJSON Support</name>
@@ -60,7 +60,7 @@
     <dependencies>
         <!--   GeoTools modules   -->
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-main</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -72,7 +72,7 @@
         </dependency>
 
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-epsg-hsql</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
@@ -88,7 +88,7 @@
         <id>benchmark</id>
         <dependencies>
           <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-shapefile</artifactId>
             <version>${project.version}</version>
           </dependency>

@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.geotools.schemas</groupId>
+    <groupId>io.oss84.geotools.schemas</groupId>
     <artifactId>om-2.0</artifactId>
     <version>2.0.0-1</version>
     <name>Observations and Measurements 2.0 application schema</name>
@@ -25,12 +25,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>gml-3.2</artifactId>
             <version>3.2.1-1</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>iso-19139-2007</artifactId>
             <version>1.0.0-1</version>
         </dependency>

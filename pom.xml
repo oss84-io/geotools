@@ -499,7 +499,7 @@
   <!-- =========================================================== -->
   <!--     Project Description                                     -->
   <!-- =========================================================== -->
-  <groupId>org.geotools</groupId>
+  <groupId>io.oss84.geotools</groupId>
   <artifactId>geotools</artifactId>
   <packaging>pom</packaging>
   <version>23-SNAPSHOT</version>

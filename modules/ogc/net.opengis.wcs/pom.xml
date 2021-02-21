@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>ogc</artifactId>
     <version>23-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.geotools.ogc</groupId>
+  <groupId>io.oss84.geotools.ogc</groupId>
   <artifactId>net.opengis.wcs</artifactId>
   <packaging>jar</packaging>
 
@@ -20,12 +20,12 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.geotools.ogc</groupId>
+      <groupId>io.oss84.geotools.ogc</groupId>
       <artifactId>net.opengis.ows</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-referencing</artifactId>
       <version>${project.version}</version>
     </dependency>

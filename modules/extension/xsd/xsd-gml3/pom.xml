@@ -14,7 +14,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.geotools.xsd</groupId>
+    <groupId>io.oss84.geotools.xsd</groupId>
     <artifactId>xsd</artifactId>
     <version>23-SNAPSHOT</version>
   </parent>
@@ -23,7 +23,7 @@
   <!-- =========================================================== -->
   <!--     Module Description                                      -->
   <!-- =========================================================== -->
-  <groupId>org.geotools.xsd</groupId>
+  <groupId>io.oss84.geotools.xsd</groupId>
   <artifactId>gt-xsd-gml3</artifactId>
   <packaging>jar</packaging>
   <name>GML3 XML Support</name>
@@ -63,27 +63,27 @@
   <!-- =========================================================== -->
   <dependencies>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-referencing</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-main</artifactId>
       <version>${project.version}</version>
     </dependency>    
     <dependency>
-      <groupId>org.geotools.xsd</groupId>
+      <groupId>io.oss84.geotools.xsd</groupId>
       <artifactId>gt-xsd-core</artifactId>
       <version>${project.version}</version>
     </dependency>   
     <dependency>
-      <groupId>org.geotools.xsd</groupId>
+      <groupId>io.oss84.geotools.xsd</groupId>
       <artifactId>gt-xsd-gml2</artifactId>
       <version>${project.version}</version>
     </dependency>    
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-epsg-hsql</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>
@@ -94,7 +94,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.geotools.xsd</groupId>
+      <groupId>io.oss84.geotools.xsd</groupId>
       <artifactId>gt-xsd-core</artifactId>
       <classifier>tests</classifier>
       <version>${project.version}</version>
@@ -119,7 +119,7 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.geotools.maven</groupId>
+        <groupId>io.oss84.geotools.maven</groupId>
         <artifactId>xmlcodegen</artifactId>
         <version>${project.version}</version>
         <configuration>
