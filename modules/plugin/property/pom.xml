@@ -14,7 +14,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>plugin</artifactId>
     <version>22-SNAPSHOT</version>
   </parent>
@@ -23,7 +23,7 @@
   <!-- =========================================================== -->
   <!--     Module Description                                      -->
   <!-- =========================================================== -->
-  <groupId>org.geotools</groupId>
+  <groupId>io.oss84.geotools</groupId>
   <artifactId>gt-property</artifactId>
   <packaging>jar</packaging>
   <name>Property File DataStore</name>
@@ -67,18 +67,18 @@
   <!-- =========================================================== -->
   <dependencies>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-main</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-epsg-hsql</artifactId>
       <scope>test</scope>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-cql</artifactId>
       <scope>test</scope>
       <version>${project.version}</version>

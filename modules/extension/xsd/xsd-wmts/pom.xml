@@ -12,7 +12,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.geotools.xsd</groupId>
+        <groupId>io.oss84.geotools.xsd</groupId>
         <artifactId>xsd</artifactId>
         <version>22-SNAPSHOT</version>
     </parent>
@@ -20,7 +20,7 @@
     <!-- =========================================================== -->
     <!-- Module Description -->
     <!-- =========================================================== -->
-    <groupId>org.geotools.xsd</groupId>
+    <groupId>io.oss84.geotools.xsd</groupId>
     <artifactId>gt-xsd-wmts</artifactId>
     <packaging>jar</packaging>
     <name>WMTS XML Support</name>
@@ -68,17 +68,17 @@
     <!-- =========================================================== -->
     <dependencies>
         <dependency>
-            <groupId>org.geotools.ogc</groupId>
+            <groupId>io.oss84.geotools.ogc</groupId>
             <artifactId>net.opengis.wmts</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools.xsd</groupId>
+            <groupId>io.oss84.geotools.xsd</groupId>
             <artifactId>gt-xsd-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools.xsd</groupId>
+            <groupId>io.oss84.geotools.xsd</groupId>
             <artifactId>gt-xsd-ows</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -87,7 +87,7 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.geotools.maven</groupId>
+                <groupId>io.oss84.geotools.maven</groupId>
                 <artifactId>xmlcodegen</artifactId>
                 <version>${project.version}</version>
                 <configuration>

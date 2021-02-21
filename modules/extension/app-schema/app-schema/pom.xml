@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.geotools</groupId>
+        <groupId>io.oss84.geotools</groupId>
         <artifactId>app-schema</artifactId>
         <version>22-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>gt-app-schema</artifactId>
     <name>Application Schema DataAccess</name>
 
@@ -42,12 +42,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-complex</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-complex</artifactId>
             <version>${project.version}</version>
             <classifier>tests</classifier>
@@ -88,27 +88,27 @@
             <artifactId>commons-lang3</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-main</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-jdbc</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-cql</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools.xsd</groupId>
+            <groupId>io.oss84.geotools.xsd</groupId>
             <artifactId>gt-xsd-gml3</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-app-schema-resolver</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -117,7 +117,7 @@
             <artifactId>xpp3_min</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.geotools.ogc</groupId>
+            <groupId>io.oss84.geotools.ogc</groupId>
             <artifactId>net.opengis.wfs</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -128,62 +128,62 @@
         </dependency>
         <dependency>
             <!-- for GeometryFunctionsTest to find the EPSG factory -->
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-epsg-hsql</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-property</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-sample-data</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools.jdbc</groupId>
+            <groupId>io.oss84.geotools.jdbc</groupId>
             <artifactId>gt-jdbc-postgis</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-shapefile</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>geosciml-2.0</artifactId>
             <version>2.0.2-4</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>earthresourceml-1.1</artifactId>
             <version>1.1.0-3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <!-- required for sweCommon 1.0.30 used by XMML/borehole -->
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>xml-1.0</artifactId>
             <version>1.0.0-3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>geosciml-3.0-seegrid</artifactId>
             <version>3.0.0-1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools.schemas</groupId>
+            <groupId>io.oss84.geotools.schemas</groupId>
             <artifactId>geosciml-3.2</artifactId>
             <version>3.2.0-1</version>
             <scope>test</scope>
@@ -195,7 +195,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools.xsd</groupId>
+            <groupId>io.oss84.geotools.xsd</groupId>
             <artifactId>gt-xsd-wfs</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>

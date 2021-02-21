@@ -14,7 +14,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>unsupported</artifactId>
     <version>22-SNAPSHOT</version>
   </parent>
@@ -23,7 +23,7 @@
   <!-- =========================================================== -->
   <!--     Module Description                                      -->
   <!-- =========================================================== -->
-  <groupId>org.geotools</groupId>
+  <groupId>io.oss84.geotools</groupId>
   <artifactId>gt-wfs-ng</artifactId>
   <packaging>jar</packaging>
   <name>WFS client module (NG)</name>
@@ -94,56 +94,56 @@
   <!-- =========================================================== -->
   <dependencies>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-complex</artifactId>
       <version>${project.version}</version>
     </dependency> 
     <dependency>
-      <groupId>org.geotools.xsd</groupId>
+      <groupId>io.oss84.geotools.xsd</groupId>
       <artifactId>gt-xsd-gml3</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-main</artifactId>
       <version>${project.version}</version>
       <classifier>tests</classifier>      
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-xml</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-main</artifactId>
       <version>${project.version}</version>
       <type>jar</type>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-referencing</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-sample-data</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.geotools.xsd</groupId>
+      <groupId>io.oss84.geotools.xsd</groupId>
       <artifactId>gt-xsd-wfs</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.geotools.ogc</groupId>
+      <groupId>io.oss84.geotools.ogc</groupId>
       <artifactId>net.opengis.wfs</artifactId>
       <version>${project.version}</version>
     </dependency>
      <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-cql</artifactId>
       <version>${project.version}</version>
       <type>jar</type>
@@ -153,7 +153,7 @@
       <artifactId>xpp3_min</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-epsg-hsql</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>
@@ -172,31 +172,31 @@
       <version>1.6</version>
     </dependency>    
     <dependency>
-      <groupId>org.geotools.schemas</groupId>
+      <groupId>io.oss84.geotools.schemas</groupId>
       <artifactId>geosciml-2.0</artifactId>
       <version>2.0.2-4</version>
       <scope>test</scope>
     </dependency> 
 	<dependency>
-      <groupId>org.geotools.schemas</groupId>
+      <groupId>io.oss84.geotools.schemas</groupId>
       <artifactId>earthresourceml-1.1</artifactId>
       <version>1.1.0-3</version>
       <scope>test</scope>
 	</dependency>
 	<dependency>
-      <groupId>org.geotools.schemas</groupId>
+      <groupId>io.oss84.geotools.schemas</groupId>
       <artifactId>wfs-1.1</artifactId>
       <version>1.1.2-2</version>
       <scope>test</scope>
 	</dependency>
 	<dependency>
-      <groupId>org.geotools.schemas</groupId>
+      <groupId>io.oss84.geotools.schemas</groupId>
       <artifactId>gml-3.2</artifactId>
       <version>3.2.1-1</version>
       <scope>test</scope>
 	</dependency>
 	<dependency>
-      <groupId>org.geotools.schemas</groupId>
+      <groupId>io.oss84.geotools.schemas</groupId>
       <artifactId>wfs-2.0</artifactId>
       <version>2.0.0-2</version>
       <scope>test</scope>

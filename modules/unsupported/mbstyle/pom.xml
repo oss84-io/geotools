@@ -10,14 +10,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                                http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>unsupported</artifactId>
     <version>22-SNAPSHOT</version>
   </parent>
   <!-- =========================================================== -->
   <!--     Module Description                                      -->
   <!-- =========================================================== -->
-  <groupId>org.geotools</groupId>
+  <groupId>io.oss84.geotools</groupId>
   <artifactId>gt-mbstyle</artifactId>
   <packaging>jar</packaging>
   <name>Mapbox Styles Support</name>
@@ -74,12 +74,12 @@
   <dependencies>
     <!--   GeoTools modules   -->
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-main</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-render</artifactId>
       <version>${project.version}</version>
     </dependency>
@@ -96,32 +96,32 @@
 	    <scope>test</scope>
 	</dependency>   
 	<dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-sample-data</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>      
     </dependency> 
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-property</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>
     </dependency>    
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-render</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>
       <classifier>tests</classifier>
     </dependency>        
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-epsg-hsql</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>
     </dependency>    
     <dependency>
-      <groupId>org.geotools.xsd</groupId>
+      <groupId>io.oss84.geotools.xsd</groupId>
       <artifactId>gt-xsd-sld</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>

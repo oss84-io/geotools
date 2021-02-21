@@ -14,7 +14,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>library</artifactId>
     <version>22-SNAPSHOT</version>
   </parent>
@@ -23,7 +23,7 @@
   <!-- =========================================================== -->
   <!--     Module Description                                      -->
   <!-- =========================================================== -->
-  <groupId>org.geotools</groupId>
+  <groupId>io.oss84.geotools</groupId>
   <artifactId>gt-referencing</artifactId>
   <packaging>jar</packaging>
   <name>Referencing services</name>
@@ -181,7 +181,7 @@
       <!-- The version number is specified in the parent POM. -->
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-metadata</artifactId>
       <version>${project.version}</version>
     </dependency>
@@ -199,7 +199,7 @@
 
     <!-- Test dependencies -->
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-sample-data</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>

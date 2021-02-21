@@ -11,7 +11,7 @@
                                http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>plugin</artifactId>
     <version>22-SNAPSHOT</version>
   </parent>
@@ -20,7 +20,7 @@
   <!-- =========================================================== -->
   <!--     Module Description                                      -->
   <!-- =========================================================== -->
-  <groupId>org.geotools</groupId>
+  <groupId>io.oss84.geotools</groupId>
   <artifactId>arcsde-plugin</artifactId>
   <packaging>pom</packaging>
   <name>ArcSDE plugin</name>

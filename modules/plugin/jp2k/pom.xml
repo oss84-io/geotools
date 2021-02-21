@@ -13,7 +13,7 @@
                                http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>plugin</artifactId>
     <version>22-SNAPSHOT</version>
   </parent>
@@ -22,7 +22,7 @@
   <!-- =========================================================== -->
   <!--     Module Description                                      -->
   <!-- =========================================================== -->
-  <groupId>org.geotools</groupId>
+  <groupId>io.oss84.geotools</groupId>
   <artifactId>gt-jp2k</artifactId>
   <packaging>jar</packaging>
   <name>JP2K based grid coverage readers</name>
@@ -72,12 +72,12 @@
   <!-- =========================================================== -->
   <dependencies>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-coverage</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-epsg-hsql</artifactId>
       <version>${project.version}</version>
     </dependency>
@@ -92,7 +92,7 @@
    
     <!-- Test dependencies -->
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-sample-data</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>

@@ -14,7 +14,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>plugin</artifactId>
     <version>22-SNAPSHOT</version>
   </parent>
@@ -26,7 +26,7 @@
   <!-- =========================================================== -->
   <!--     Module Description                                      -->
   <!-- =========================================================== -->
-  <groupId>org.geotools</groupId>
+  <groupId>io.oss84.geotools</groupId>
   <artifactId>gt-imagepyramid</artifactId>
   <packaging>jar</packaging>
   <name>imagepyramid datasource module</name>
@@ -71,7 +71,7 @@
   <!-- =========================================================== -->
   <dependencies>
     <dependency>
-        <groupId>org.geotools</groupId>
+        <groupId>io.oss84.geotools</groupId>
         <artifactId>gt-imagemosaic</artifactId>
         <version>${project.version}</version>
     </dependency>
@@ -83,13 +83,13 @@
 
     <!-- Test dependencies -->
     <dependency>
-      <groupId>org.geotools</groupId>
+      <groupId>io.oss84.geotools</groupId>
       <artifactId>gt-sample-data</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>
     </dependency>
      <dependency>
-      <groupId>org.geotools.jdbc</groupId>
+      <groupId>io.oss84.geotools.jdbc</groupId>
       <artifactId>gt-jdbc-h2</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>

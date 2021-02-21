@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.geotools</groupId>
+        <groupId>io.oss84.geotools</groupId>
         <artifactId>extension</artifactId>
         <version>22-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>app-schema</artifactId>
     <packaging>pom</packaging>
     <name>Application Schema Support</name>

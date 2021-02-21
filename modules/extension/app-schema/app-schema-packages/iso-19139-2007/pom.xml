@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.geotools.schemas</groupId>
+    <groupId>io.oss84.geotools.schemas</groupId>
     <artifactId>iso-19139-2007</artifactId>
     <version>1.0.0-1</version>
     <name>ISO/TS 19139:2007 Geographic MetaData (gmd) schema</name>

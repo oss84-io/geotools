@@ -12,12 +12,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.geotools</groupId>
+    <groupId>io.oss84.geotools</groupId>
     <artifactId>plugin</artifactId>
     <version>22-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.geotools</groupId>
+  <groupId>io.oss84.geotools</groupId>
   <artifactId>gt-mongodb</artifactId>
   <packaging>jar</packaging>
   <name>MongoDB DataStore</name>
@@ -71,7 +71,7 @@
     <dependencies>
         <!--   GeoTools modules   -->
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-main</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -91,19 +91,19 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-sample-data</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-shapefile</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.geotools</groupId>
+            <groupId>io.oss84.geotools</groupId>
             <artifactId>gt-epsg-hsql</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
@@ -121,7 +121,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-          <groupId>org.geotools</groupId>
+          <groupId>io.oss84.geotools</groupId>
           <artifactId>gt-app-schema</artifactId>
           <version>${project.version}</version>
         </dependency>
